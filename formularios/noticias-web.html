@@ -1,0 +1,39 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+      <meta charset="utf-8"/>
+      <title>Notícias da Web</title>
+  </head>
+  <body>
+      <img src="imagens/logo-noticias.jpg"/>
+      <form method="post" action="">
+         <table>
+            <tr>
+                <td align="right"><strong>Título:</strong></td>
+                <td><input type="text" name="titulo" size="60"/></td>
+            </tr>
+            <tr>
+                <td align="right"><strong>Status:</strong></td>
+                <td><input type="radio" name="status" value="r"/>Rascunho
+                <input type="radio" name="status" value="p" checked/>Publicado
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><strong>Publicado em:</strong></td>
+                <td><input type="texte" name="data-publicado" value="Data"/>
+                <input type="text" name="hora-publicado" value="Hora"/></td>
+            </tr>
+
+            <tr>
+                <td align="right"><strong>Conteúdo:</strong></td>
+                <td><textarea name="conteudo" cols="62" rows="8"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="right"><input type="submit" value="Cadastrar"/></td>
+            </tr>
+         </table>
+      </form>
+  </body>
+</html>
